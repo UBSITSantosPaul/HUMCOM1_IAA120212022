@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta name="description" content="Forms">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Paul Erwin Santos">
+    </head>
+    <title>Registration Form - Santos, Paul Erwin C.</title>
+    <body style = "font-family: Tahoma; margin-top: 3%; background-color: rgb(215, 248, 250)">
+        <form action="/action_page.php">
+        <fieldset style="margin-left: 23%; margin-right: 23%; background-color: antiquewhite;">
+            <h2><center>Registration Form</center></h2>
+            <fieldset style="margin-left: 27%; margin-right: 27%; background-color: rgb(255, 247, 238)">
+                <legend><h3>Student</h3></legend>
+                    Last Name: <input type="text" size="30" max="25" name="Last Name" title="" placeholder="uppercase*" required><br>
+                    Middle Name: <input type="text" size="30" max="25" name="Middle Name" title="" placeholder="uppercase*" required><br>
+                    First Name: <input type="text" size="30" max="25" name="First Name" title="" placeholder="uppercase*" required><br>
+                    <hr>
+                    Gender: <input type="radio" id="male" name="gender" value="Male" required><label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" required><label for="male">Female</label>
+            </fieldset>
+            <fieldset style="margin-left: 27%; margin-right: 27%; background-color: rgb(255, 247, 238)">
+                <legend><h3>Birthdate</h3></legend>
+                    <label for="bdaymonth">Birthday (month and year):</label>
+                    <input type="month" id="bdaymonth" name="bdaymonth">
+                    Day: <input type="number" size="" min=1 max=31 name="Age" title="" required><br>
+                    <hr>
+                    Age: <input type="number" size="" min=0 max=100 name="Age" title="" required>
+            </fieldset>
+            <fieldset style="margin-left: 27%; margin-right: 27%; background-color: rgb(255, 247, 238)">
+                <legend><h3>Address</h3></legend>
+                    Home Address: <input type="text" size="30" max="80" name="Home Address" title="" placeholder="#*, Street*, Barangay, City*" required><br>
+                    Zip Code: <input type="text" size="30" max="50" name="Zip Code" title="" required><br>
+                    Province: <input type="text" size="30" max="25" name="Province" title="" required>
+            </fieldset>
+            <fieldset style="margin-left: 27%; margin-right: 27%; background-color: rgb(255, 247, 238)">
+                <legend><h3>Course & Year</h3></legend>
+                    <input type="radio" id="bsit1" name="course&year" value="BSIT1"><label for="bsit1" required>BSIT1</label><br>
+                    <input type="radio" id="bsit2" name="course&year" value="BSIT2"><label for="bsit2" required>BSIT2</label><br>
+                    <input type="radio" id="bsit3" name="course&year" value="BSIT3"><label for="bsit3" required>BSIT3</label><br>
+                    <input type="radio" id="bsit4" name="course&year" value="BSIT4"><label for="bsit4" required>BSIT4</label><br>
+                    <hr>
+                    Section:<br>
+                    <select>
+                        <option value="iaa1" required>IAA1</option>
+                        <option value="iaa2" required>IAA2</option>
+                        <option value="iba1" required>IBA1</option>
+                        <option value="iba2" required>IBA2</option>
+                        <option value="ida1" required>IDA1</option>
+                        <option value="ida2" required>IDA2</option>
+                    </select>
+                    <br>
+        </fieldset>
+        <br>
+        <center><input type="submit"></center>
+        <br>
+    </form>
+    </body>
+</html>
