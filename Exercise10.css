@@ -1,0 +1,36 @@
+body{
+    font-family: Courier New;
+    background-color: rgb(172, 218, 240);
+    background-image: url("ph-eagle.jpg");
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: top right;
+}
+
+h1{
+    margin-top: 25px;
+    color: rgb(0, 73, 182);
+    text-align: center;
+}
+
+ul{
+    border: 2px solid red;
+    border-radius: 12px;
+}
+
+h2{
+    color: rgb(0, 73, 182);
+}
+
+article{
+    text-align: justify;
+    text-indent: 40px;
+}
+
+span{
+    color: rgb(0, 73, 182);
+}
+
+footer{
+    text-align: center;
+}
