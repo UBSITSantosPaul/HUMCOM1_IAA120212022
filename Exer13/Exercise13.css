@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(172, 218, 240);
+}
+
+.pic1{
+    height: auto;
+    max-width: 49.3%;
+    padding: 1px;
+    float: left;
+}
+
+.pic2{
+    height: auto;
+    max-width: 49.3%;
+    padding: 1px;
+    float: right;
+}
+
+.pic3{
+    height: auto;
+    max-width: 100%;
+    padding: 3px;
+}
+
+.pic4{
+    height: auto;
+    max-width: 32.8%;
+    padding: .8px;
+    float: left;
+}
+
+.pic5{
+    height: auto;
+    max-width: 32.8%;
+    padding: .8px;
+    
+}
+
+.pic6{
+    height: auto;
+    max-width: 32.8%;
+    padding: .8px;
+    float: right;
+}
+
+.pic7{
+    height: auto;
+    max-width: 100%;
+    padding: 1px;
+}
